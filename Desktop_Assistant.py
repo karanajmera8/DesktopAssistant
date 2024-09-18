@@ -75,7 +75,7 @@ def Hello():
     speak("Hello sir I am your desktop assistant. Tell me how may I help you")
 
 def chatgpt():
-    openai.api_key = "Placeholder"              #Please add the key here
+    #openai.api_key = "Placeholder"              #Please add the key here and uncommet this line
     messages=[
     {'role':'system','content':'You are an intelligent assistant.'}
     ]
