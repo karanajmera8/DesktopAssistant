@@ -75,7 +75,9 @@ def Hello():
     speak("Hello sir I am your desktop assistant. Tell me how may I help you")
 
 def chatgpt():
-    openai.api_key = "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"
+    with open("Key.txt", "r") as file:
+        content = file.read()
+    openai.api_key = content[2:]
     messages=[
     {'role':'system','content':'You are an intelligent assistant.'}
     ]
