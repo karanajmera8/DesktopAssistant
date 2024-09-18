@@ -75,7 +75,6 @@ def Hello():
     speak("Hello sir I am your desktop assistant. Tell me how may I help you")
 
 def chatgpt():
-    #Please create a variable here holding the secret for OPENAI here.
     messages=[
     {'role':'system','content':'You are an intelligent assistant.'}
     ]
